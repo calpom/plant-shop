@@ -1,0 +1,62 @@
+/* src/style/PlantCard.css */
+
+.plant-card {
+    width: 300px;
+    height: 600px;
+    border-radius: 10px;
+    border: 5px solid black;
+    box-sizing: border-box;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;
+    padding: 10px;
+    position: relative;
+  }
+  
+  .plant-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    font-weight: bold;
+  }
+  
+  .plant-name {
+    flex: 1;
+  }
+  
+  .plant-price {
+    margin-left: 10px;
+  }
+  
+  .plant-image {
+    width: 100%;
+    height: auto;
+    flex-grow: 1;
+    object-fit: cover;
+  }
+  
+  .plant-description {
+    padding: 10px;
+    font-size: 14px;
+  }
+  
+  .plant-card::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    border-radius: 5px;
+  }
+  
+  .plant-card:hover::after {
+    opacity: 1;
+  }
+  

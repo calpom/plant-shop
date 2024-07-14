@@ -1,0 +1,17 @@
+.plant-list-container {
+    padding: 20px;
+  }
+  
+  .plant-list-title {
+    color: black;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .plant-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: flex-start;
+  }
+  
