@@ -6,9 +6,12 @@ const Header = () => {
     <header className="header">
       <div className="header-title">Caleb's Plant Shop</div>
       <div className="header-right">
-        <input type="text" className="search-bar" placeholder="Search plants" />
+        <input type="text" className="search-bar" placeholder="Search..." />
         <button className="search-button">
           <i className="fas fa-search"></i>
+        </button>
+        <button className="heart-button">
+          <i className="fas fa-heart"></i>
         </button>
         <button className="cart-button">
           <i className="fas fa-shopping-cart"></i>
@@ -19,4 +22,3 @@ const Header = () => {
 };
 
 export default Header;
-

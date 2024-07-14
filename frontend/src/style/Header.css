@@ -32,9 +32,9 @@
   }
   
   .search-button,
+  .heart-button,
   .cart-button {
     background-color: transparent;
-    color: white;
     border: none;
     padding: 10px 10px;
     font-size: 1.5em;
@@ -42,7 +42,14 @@
     margin-right: 10px;
   }
   
+  .search-button i,
+  .heart-button i,
+  .cart-button i {
+    color: white;
+  }
+  
   .search-button:hover,
+  .heart-button:hover,
   .cart-button:hover {
     background-color: rgba(255, 255, 255, 0.1);
   }
