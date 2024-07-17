@@ -1,6 +1,14 @@
 .App {
   text-align: center;
+  padding: 10px;
 }
+
+@media (max-width: 768px) {
+  .App {
+    padding: 5px;
+  }
+}
+
 
 .App-logo {
   height: 40vmin;

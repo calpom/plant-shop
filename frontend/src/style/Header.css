@@ -6,6 +6,7 @@
     align-items: flex-end;
     padding: 10px 20px;
     height: 180px;
+    flex-wrap: wrap;
   }
   
   .header-title {
@@ -15,6 +16,7 @@
   .header-right {
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
   }
   
   .search-bar {
@@ -52,5 +54,36 @@
   .heart-button:hover,
   .cart-button:hover {
     background-color: rgba(255, 255, 255, 0.1);
+  }
+  
+  @media (max-width: 768px) {
+    .header {
+      flex-direction: column;
+      align-items: flex-start; /* Align contents to the left */
+      height: auto;
+      padding: 10px;
+    }
+  
+    .header-title {
+      font-size: 36px;
+      width: 100%; /* Ensure the title takes full width */
+      margin-bottom: 10px; /* Add some margin at the bottom */
+    }
+  
+    .header-right {
+      width: 100%; /* Ensure the header-right section takes full width */
+    }
+  
+    .search-bar {
+      width: 100%;
+      margin: 10px 0;
+    }
+  
+    .search-button,
+    .heart-button,
+    .cart-button {
+      font-size: 1.2em;
+      margin: 5px;
+    }
   }
   

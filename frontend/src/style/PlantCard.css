@@ -53,3 +53,10 @@
     opacity: 1;
   }
   
+  @media (max-width: 768px) {
+    .plant-card {
+      width: 100%;
+      height: auto;
+    }
+  }
+  

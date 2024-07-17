@@ -3,7 +3,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'http://localhost:8000/api', // Adjust the baseURL to match your Django API endpoint
+    baseURL: "http://18.208.248.13:8000/api",
 });
 
 export default api;

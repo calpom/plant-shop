@@ -4,7 +4,7 @@ import '../style/Header.css';
 const Header = () => {
   return (
     <header className="header">
-      <div className="header-title">Caleb's Plant Shop</div>
+      <div className="header-title">The Plant Shop</div>
       <div className="header-right">
         <input type="text" className="search-bar" placeholder="Search..." />
         <button className="search-button">
